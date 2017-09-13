@@ -4,7 +4,8 @@
     "description": "study server",
     "main": "index.js",
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
+        "dev.hos": "node-dev --debug src/hos.js",
+        "dev.member": "node-dev --debug src/member.js"
     },
     "repository": {
         "type": "git",
@@ -14,6 +15,9 @@
         "body-parser": "^1.17.2",
         "cors": "^2.8.4",
         "express": "^4.8.7"
+    },
+    "devDependencies": {
+        "node-dev": "^3.1.3"
     },
     "author": "maziwei",
     "license": "ISC",
